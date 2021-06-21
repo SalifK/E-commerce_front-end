@@ -1,6 +1,6 @@
 <template>
   <v-container>
-      Account view component
+      xxxxxxxxxxxxxxxxxxxxxxx
   </v-container>
 </template>
 

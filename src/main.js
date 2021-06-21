@@ -2,35 +2,35 @@ import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import VueRouter from 'vue-router';
+import Routes from './router';
 
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+
+
+
+
+// Import Bootstrap an BootstrapVue CSS files (order is important)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// Make BootstrapVue available throughout your project
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
 Vue.config.productionTip = false
 
 Vue.use(VueRouter)
 
-import HelloWorld from './components/HelloWorld';
-import Basket from './components/basket';
-import MyAccount from './components/my-account';
-const routers = [{
-  name:'Home',
-  path:'/',
-  component: HelloWorld
-},
-{
-  name:'Basket',
-  path:'/basket',
-  component: Basket
-},
-{
-  name:'MyAccount',
-  path:'/my-account',
-  component: MyAccount
-}
 
-]
-
-const router = new VueRouter({ mode: 'history', routes:routers})
+const router = new VueRouter({ mode: 'history', routes: Routes})
 new Vue({
   vuetify,
-  router,
+  router: router,
   render: h => h(App)
 }).$mount('#app')
+
+// Import package
+
+
+

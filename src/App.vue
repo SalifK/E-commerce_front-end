@@ -1,9 +1,13 @@
+
 <template>
   <v-app>
 
     <NavigationTop />
-
-    <SearchFront />
+    
+  
+      
+      
+    
     
 
     <v-content>
@@ -13,23 +17,26 @@
     <Footer />
 
   </v-app>
+  
 </template>
 
 <script>
 
-import SearchFront from './components/shared/search-front';
+
+
 import Footer from './components/shared/footer';
 import NavigationTop from './components/shared/navigation-top';
+
 
 
 export default {
   name: 'App',
 
   components: {
-   
-    SearchFront,
+    
     Footer,
-    NavigationTop
+    NavigationTop,
+
   },
 
   data: () => ({
@@ -38,7 +45,11 @@ export default {
      icon: 'perm_identity',
      href: '#',
      title:'Account'
-   }]
+   }],
+  
   }),
 };
+
+       
 </script>
+

@@ -918,7 +918,7 @@ color: #51da2f;
     padding: 1em 0em 0 0em;
 }
 .contact-form {
-    background: #181919;
+    background: #808080;
     padding: 5em 3em;
 }
 .contact input[type="text"], .contact input[type="email"], .contact textarea {
@@ -5343,114 +5343,149 @@ p.w3ls_para {
 }
 /*-- //responsive media queries --*/
 
-
 </style>
+
+
 <template>
-    <div class="footer">
-	<div class="footer_agile_inner_info_w3l">
-		<div class="col-md-3 footer-left">
-			<h2><a href="#"><span>Sho</span>pping-Electro</a></h2>
-			<p></p>
-			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">10
-				<li><a href="https://www.facebook.com/" class="facebook">
-					<div class="front"><i class="fab fa-facebook" aria-hidden="true"></i>
-					</div>
-					<div class="back"><i class="fab fa-facebook" aria-hidden="true"></i>
-					</div>
-					</a>
-				</li>
-				<li><a href="https://twitter.com/" class="twitter"> 
-					<div class="front"><i class="fab fa-twitter" aria-hidden="true"></i></div>
-					<div class="back"><i class="fab fa-twitter" aria-hidden="true"></i></div></a></li>
-				<li><a href="https://www.instagram.com/arttunisia/" class="instagram">
-					<div class="front"><i class="fab fa-instagram" aria-hidden="true"></i></div>
-					<div class="back"><i class="fab fa-instagram" aria-hidden="true"></i></div></a></li>
-				<li><a href="https://www.pinterest.com/arttunsia/" class="pinterest">
-					<div class="front"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
-					<div class="back"><i class="fab fa-linkedin" aria-hidden="true"></i></div></a></li>
-			</ul>
-		</div>
-		<div class="col-md-16 footer-right">
+
+ 
+  <v-container>
+    <SearchFront/>
+
+    <div class="banner_bottom_agile_info">
+		<div class="container">
 			<div class="row  justify-content-start">
-				<div class="col-md-4 sign-gd">
-					<h4>Nos<span> informations</span> </h4>
-					<ul>
-						<li><a href="/">Accueil</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/produit">Products</a></li>
-						<li><a href="/contact">Contact</a></li>
-					</ul>
-				</div>
-				<div class="col-md-4 sign-gd">
-					<h4>Informations <span>sur le magasin</span></h4>
-					<div class="w3-address">
-						<div class="w3-address-grid">
-							<div class="w3-address-left">
-								<i class="fa fa-phone" aria-hidden="true"></i>
-							</div>
-							<div class="w3-address-right">
-								<h6>Numéro de téléphone</h6>
-								<p>+216 26 077 529</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="w3-address-grid">
-							<div class="w3-address-left">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</div>
-							<div class="w3-address-right">
-								<h6>Adresse email</h6>
-								<p>Email :<a href="mailto:example@email.com"> Electro-shop@gmail.com</a></p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="w3-address-grid">
-							<div class="w3-address-left">
-								<i class="fa fa-map-marker" aria-hidden="true"></i>
-							</div>
-							<div class="w3-address-right">
-								<h6>Emplacement</h6>
-								<p>Tunisie , Sfax route matar km 4.5</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
+				
+				<div class="col-3 contact-grid-agile-w3">
+					<div class="contact-grid-agile-w31">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+						<h4>Adresse</h4>
+						<p> <span>Tunisie , Sfax route matar km 4.5</span></p>
 					</div>
 				</div>
+				<div class="col-3 contact-grid-agile-w3">
+					<div class="contact-grid-agile-w32">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<h4>APPELEZ-NOUS</h4>
+						<p><span>+216 26 077 529</span></p>
+					</div>
+				</div><br>
+				<div class="col-3 contact-grid-agile-w3">
+					<div class="contact-grid-agile-w33">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<h4>Email</h4>
+						<p><a href="mailto:info@example.com">Electro-shop@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
 				
-				<div class="clearfix"></div>
 			</div>
 		</div>
-		
-		
-		<p class="copy-right">copy-right& copy 2021 Sfax Shop. Tous droits réservés | Concu par <a href="#">WB-APPLICATION</a></p>
+	</div>
+
+
+    <div class="contact-w3-agile1 map" data-aos="flip-right">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6558.115209854506!2d10.759874544158736!3d34.72894233857457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13002d2e3f196e35%3A0xae7eb829f737d455!2s63%20Rue%20Tahar%20Sfar%2C%20Sfax!5e0!3m2!1sfr!2stn!4v1589820457078!5m2!1sfr!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+	<div class="banner_bottom_agile_info">
+		<div class="container">
+			<div class="agile-contact-grids">
+				<div class="row justify-content-star">
+					<div class="col-md-6 address-grid">
+						<h4>POUR PLUS<span> D'INFORMATIONS</span></h4>
+						<div class="mail-agileits-w3layouts">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<div class="contact-right">
+									<p>Téléphone </p><span>+216 26 077 529</span>
+								</div>
+								<div class="clearfix"> </div>
+								<div class="mail-agileits-w3layouts">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<div class="contact-right">
+									<p>Email </p><a href="mailto:info@example.com">Sfax.Shop.tn@gmail.com</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="mail-agileits-w3layouts">
+								<i class="fa fa-map" aria-hidden="true"></i>
+								<div class="contact-right">
+									<p>Adresse</p><span>Tunisie , Sfax</span>
+								</div>
+								<div class="clearfix"> </div>
+
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 contact-form">
+						<h4 class="white-w3ls">SEND  <span>YOUR MESSAGE</span></h4>
+						<form action="#" method="post"> 
+							<input type="text" placeholder="Enter your name" name="name" required="true" style="color: #000;background:#fff;border: none;"><br><br><br>
+							<input type="text" placeholder="Enter your message" name="message" required="true" style="color: #000;background:#fff;border: none;"><br><br><br>
+							<input type="submit" value="Send">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="coupons">
+	<div class="coupons-grids text-center">
+		<div class="w3layouts_mail_grid">
+			<div class="col-md-3 w3layouts_mail_grid_left">
+				<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+					<i class="fa fa-truck" aria-hidden="true"></i>
+				</div>
+				<div class="w3layouts_mail_grid_left2">
+					<h3>LIVRAISON GRATUITE</h3>
+				</div>
+			</div>
+			<div class="col-md-3 w3layouts_mail_grid_left">
+				<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+					<i class="fa fa-headphones" aria-hidden="true"></i>
+				</div>
+				<div class="w3layouts_mail_grid_left2">
+					<h3>Support 24/7</h3>	
+				</div>
+			</div>
+			<div class="col-md-3 w3layouts_mail_grid_left">
+				<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+					<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+				</div>
+				<div class="w3layouts_mail_grid_left2">
+					<h3>Garantie de remboursement</h3>
+				</div>
+			</div>
+			<div class="col-md-3 w3layouts_mail_grid_left">
+				<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+					<i class="fa fa-gift" aria-hidden="true"></i>
+				</div>
+				<div class="w3layouts_mail_grid_left2">
+					<h3>Chèques cadeaux gratuits</h3>	
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+
 	</div>
 </div>
+
+  </v-container>
+
 </template>
+
+
+
 <script>
-    export default {
-        data:() =>({
-            icons1: [
-                'fab fa-facebook',
-               
-            ],
-            icons2: [
-                'fab fa-twitter',
-               
-            ],
-            icons3: [
-                'fab fa-instagram',
-               
-            ],
-            icons4: [
-                'fab fa-google-plus',
-               
-            ],
-            icons5: [
-                'fab fa-linkedin',
-               
-            ]   
-                
-                
-        })
-    }   
+import SearchFront from './shared/search-front.vue';
+  export default {
+    data: () => ({
+
+    }),
+	components: {
+		SearchFront
+  },
+  }
 </script>
+

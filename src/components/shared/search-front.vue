@@ -1,5 +1,6 @@
 <template>
-    <v-parallax height="300" dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+    <v-parallax height="300" dark  src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+  
       <v-container fluid grid-list-xl>
         <v-layout justify-center row wrap>
 
@@ -24,6 +25,15 @@
 <script>
     export default{
         data:() =>({
+          UserInfo: [
+
+                {
+
+                    
+
+                    "Url": "assets/contact-us-Banner.png"
+
+                }]
         })
     }   
 </script>
